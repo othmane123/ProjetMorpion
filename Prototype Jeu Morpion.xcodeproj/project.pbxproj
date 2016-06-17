@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F62BCD71D1203E800C7C341 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7F62BCD61D1203E800C7C341 /* ResourcePath.mm */; };
+		7F62BCDD1D1203E800C7C341 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F62BCDC1D1203E800C7C341 /* cute_image.jpg */; };
+		7F62BCDF1D1203E800C7C341 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 7F62BCDE1D1203E800C7C341 /* nice_music.ogg */; };
+		7F62BCE11D1203E800C7C341 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F62BCE01D1203E800C7C341 /* sansation.ttf */; };
+		7F62BCE31D1203E800C7C341 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F62BCE21D1203E800C7C341 /* icon.png */; };
+		7F62BCF21D12040500C7C341 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 7F62BCE91D12040500C7C341 /* assets */; };
+		7F62BCF31D12040500C7C341 /* Board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F62BCEA1D12040500C7C341 /* Board.cpp */; };
+		7F62BCF41D12040500C7C341 /* cercle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F62BCEC1D12040500C7C341 /* cercle.jpg */; };
+		7F62BCF51D12040500C7C341 /* croix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F62BCED1D12040500C7C341 /* croix.jpg */; };
+		7F62BCF61D12040500C7C341 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F62BCEE1D12040500C7C341 /* Game.cpp */; };
+		7F62BCF71D12040500C7C341 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F62BCF01D12040500C7C341 /* main.cpp */; };
+		7F62BCF81D12040500C7C341 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 7F62BCF11D12040500C7C341 /* Makefile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F62BCD11D1203E800C7C341 /* Prototype Jeu Morpion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototype Jeu Morpion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F62BCD51D1203E800C7C341 /* Prototype Jeu Morpion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prototype Jeu Morpion-Info.plist"; sourceTree = "<group>"; };
+		7F62BCD61D1203E800C7C341 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		7F62BCD81D1203E800C7C341 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		7F62BCDC1D1203E800C7C341 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
+		7F62BCDE1D1203E800C7C341 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		7F62BCE01D1203E800C7C341 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		7F62BCE21D1203E800C7C341 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		7F62BCE91D12040500C7C341 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = "../../../Documents/Adobe/tictactoe_sfml-master/assets"; sourceTree = "<group>"; };
+		7F62BCEA1D12040500C7C341 /* Board.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Board.cpp; path = "../../../Documents/Adobe/tictactoe_sfml-master/Board.cpp"; sourceTree = "<group>"; };
+		7F62BCEB1D12040500C7C341 /* Board.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Board.hpp; path = "../../../Documents/Adobe/tictactoe_sfml-master/Board.hpp"; sourceTree = "<group>"; };
+		7F62BCEC1D12040500C7C341 /* cercle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cercle.jpg; path = "../../../Documents/Adobe/tictactoe_sfml-master/cercle.jpg"; sourceTree = "<group>"; };
+		7F62BCED1D12040500C7C341 /* croix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = croix.jpg; path = "../../../Documents/Adobe/tictactoe_sfml-master/croix.jpg"; sourceTree = "<group>"; };
+		7F62BCEE1D12040500C7C341 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Game.cpp; path = "../../../Documents/Adobe/tictactoe_sfml-master/Game.cpp"; sourceTree = "<group>"; };
+		7F62BCEF1D12040500C7C341 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Game.hpp; path = "../../../Documents/Adobe/tictactoe_sfml-master/Game.hpp"; sourceTree = "<group>"; };
+		7F62BCF01D12040500C7C341 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../../Documents/Adobe/tictactoe_sfml-master/main.cpp"; sourceTree = "<group>"; };
+		7F62BCF11D12040500C7C341 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = "../../../Documents/Adobe/tictactoe_sfml-master/Makefile"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F62BCCD1D1203E800C7C341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F62BCC71D1203E800C7C341 = {
+			isa = PBXGroup;
+			children = (
+				7F62BCD31D1203E800C7C341 /* Prototype Jeu Morpion */,
+				7F62BCD21D1203E800C7C341 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F62BCD21D1203E800C7C341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F62BCD11D1203E800C7C341 /* Prototype Jeu Morpion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F62BCD31D1203E800C7C341 /* Prototype Jeu Morpion */ = {
+			isa = PBXGroup;
+			children = (
+				7F62BCD61D1203E800C7C341 /* ResourcePath.mm */,
+				7F62BCD81D1203E800C7C341 /* ResourcePath.hpp */,
+				7F62BCE91D12040500C7C341 /* assets */,
+				7F62BCEA1D12040500C7C341 /* Board.cpp */,
+				7F62BCEB1D12040500C7C341 /* Board.hpp */,
+				7F62BCEC1D12040500C7C341 /* cercle.jpg */,
+				7F62BCED1D12040500C7C341 /* croix.jpg */,
+				7F62BCEE1D12040500C7C341 /* Game.cpp */,
+				7F62BCEF1D12040500C7C341 /* Game.hpp */,
+				7F62BCF01D12040500C7C341 /* main.cpp */,
+				7F62BCF11D12040500C7C341 /* Makefile */,
+				7F62BCDB1D1203E800C7C341 /* Resources */,
+				7F62BCD41D1203E800C7C341 /* Supporting Files */,
+			);
+			path = "Prototype Jeu Morpion";
+			sourceTree = "<group>";
+		};
+		7F62BCD41D1203E800C7C341 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F62BCD51D1203E800C7C341 /* Prototype Jeu Morpion-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F62BCDB1D1203E800C7C341 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7F62BCDC1D1203E800C7C341 /* cute_image.jpg */,
+				7F62BCDE1D1203E800C7C341 /* nice_music.ogg */,
+				7F62BCE01D1203E800C7C341 /* sansation.ttf */,
+				7F62BCE21D1203E800C7C341 /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F62BCD01D1203E800C7C341 /* Prototype Jeu Morpion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F62BCE61D1203E800C7C341 /* Build configuration list for PBXNativeTarget "Prototype Jeu Morpion" */;
+			buildPhases = (
+				7F62BCCC1D1203E800C7C341 /* Sources */,
+				7F62BCCD1D1203E800C7C341 /* Frameworks */,
+				7F62BCCE1D1203E800C7C341 /* Resources */,
+				7F62BCCF1D1203E800C7C341 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prototype Jeu Morpion";
+			productName = "Prototype Jeu Morpion";
+			productReference = 7F62BCD11D1203E800C7C341 /* Prototype Jeu Morpion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F62BCC81D1203E800C7C341 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Othmane Haddou";
+				TargetAttributes = {
+					7F62BCD01D1203E800C7C341 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7F62BCCB1D1203E800C7C341 /* Build configuration list for PBXProject "Prototype Jeu Morpion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F62BCC71D1203E800C7C341;
+			productRefGroup = 7F62BCD21D1203E800C7C341 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F62BCD01D1203E800C7C341 /* Prototype Jeu Morpion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F62BCCE1D1203E800C7C341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F62BCF51D12040500C7C341 /* croix.jpg in Resources */,
+				7F62BCF21D12040500C7C341 /* assets in Resources */,
+				7F62BCE31D1203E800C7C341 /* icon.png in Resources */,
+				7F62BCE11D1203E800C7C341 /* sansation.ttf in Resources */,
+				7F62BCF41D12040500C7C341 /* cercle.jpg in Resources */,
+				7F62BCDF1D1203E800C7C341 /* nice_music.ogg in Resources */,
+				7F62BCDD1D1203E800C7C341 /* cute_image.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F62BCCF1D1203E800C7C341 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/usr/local/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F62BCCC1D1203E800C7C341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F62BCF81D12040500C7C341 /* Makefile in Sources */,
+				7F62BCF61D12040500C7C341 /* Game.cpp in Sources */,
+				7F62BCF31D12040500C7C341 /* Board.cpp in Sources */,
+				7F62BCF71D12040500C7C341 /* main.cpp in Sources */,
+				7F62BCD71D1203E800C7C341 /* ResourcePath.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7F62BCE41D1203E800C7C341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		7F62BCE51D1203E800C7C341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		7F62BCE71D1203E800C7C341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Prototype Jeu Morpion/Prototype Jeu Morpion-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F62BCE81D1203E800C7C341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Prototype Jeu Morpion/Prototype Jeu Morpion-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F62BCCB1D1203E800C7C341 /* Build configuration list for PBXProject "Prototype Jeu Morpion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F62BCE41D1203E800C7C341 /* Debug */,
+				7F62BCE51D1203E800C7C341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F62BCE61D1203E800C7C341 /* Build configuration list for PBXNativeTarget "Prototype Jeu Morpion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F62BCE71D1203E800C7C341 /* Debug */,
+				7F62BCE81D1203E800C7C341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F62BCC81D1203E800C7C341 /* Project object */;
+}
