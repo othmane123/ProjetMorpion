@@ -1,0 +1,92 @@
+# depslib dependency file v1.0
+1466503102 source:c:\users\youssef\desktop\projet morpion\projet-morpion\board.cpp
+	"Board.hpp"
+	<SFML/Audio.hpp>
+
+1466503098 c:\users\youssef\desktop\projet morpion\projet-morpion\board.hpp
+	<SFML/Audio.hpp>
+	<map>
+
+1466629674 source:c:\users\youssef\desktop\projet morpion\projet-morpion\game.cpp
+	"Game.hpp"
+	"menu.hpp"
+	"IA.hpp"
+	<SFML/Audio.hpp>
+
+1466623420 c:\users\youssef\desktop\projet morpion\projet-morpion\game.hpp
+	<iostream>
+	<vector>
+	<SFML/Graphics.hpp>
+	"Board.hpp"
+	"menu.hpp"
+	<SFML/Audio.hpp>
+
+1466631437 source:c:\users\youssef\desktop\projet morpion\projet-morpion\main.cpp
+	"Game.hpp"
+	"menu.hpp"
+	"IA.hpp"
+	"MenuClient.hpp"
+	"MenuServeur.hpp"
+
+1466629598 c:\users\youssef\desktop\projet morpion\projet-morpion\menu.hpp
+	"SFML/Graphics.hpp"
+	<SFML/Audio.hpp>
+
+1466630632 source:c:\users\youssef\desktop\projet morpion\projet-morpion\menu.cpp
+	"Menu.hpp"
+	<SFML/Audio.hpp>
+
+1466625656 source:c:\users\youssef\desktop\projet morpion\projet-morpion\ia.cpp
+	"Game.hpp"
+	"menu.hpp"
+	"IA.hpp"
+	<SFML/Audio.hpp>
+
+1466625657 c:\users\youssef\desktop\projet morpion\projet-morpion\ia.hpp
+	<iostream>
+	<vector>
+	<SFML/Graphics.hpp>
+	"Board.hpp"
+	"menu.hpp"
+	<SFML/Audio.hpp>
+
+1466629278 source:c:\users\youssef\desktop\projet morpion\projet-morpion\menuclient.cpp
+	<SFML/Network.hpp>
+	"Game.hpp"
+	"menu.hpp"
+	"MenuClient.hpp"
+	"MenuClient.hpp"
+	<SFML/Audio.hpp>
+	<SFML/Network.hpp>
+
+1466631495 c:\users\youssef\desktop\projet morpion\projet-morpion\menuclient.hpp
+	<iostream>
+	<vector>
+	<SFML/Graphics.hpp>
+	"Board.hpp"
+	"menu.hpp"
+	<SFML/Audio.hpp>
+	<SFML/Network.hpp>
+
+1466630559 source:c:\users\youssef\desktop\projet morpion\projet-morpion\menuserveur.cpp
+	"Game.hpp"
+	"menu.hpp"
+	"IA.hpp"
+	<SFML/Network.hpp>
+	<SFML/Network.hpp>
+	"Game.hpp"
+	"menu.hpp"
+	"MenuServeur.hpp"
+	"MenuClient.hpp"
+	<SFML/Audio.hpp>
+	<SFML/Network.hpp>
+
+1466631479 c:\users\youssef\desktop\projet morpion\projet-morpion\menuserveur.hpp
+	<SFML/Network.hpp>
+	<iostream>
+	<vector>
+	<SFML/Graphics.hpp>
+	"Board.hpp"
+	"menu.hpp"
+	<SFML/Audio.hpp>
+
